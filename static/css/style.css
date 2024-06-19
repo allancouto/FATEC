@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    margin: auto;
+    width: 70%;
+    max-width: 1400px;
+}
+
+.principal h1{
+    color: black;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.principal p{
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.principal img{
+    width: 90%;
+    margin: 2rem 0 2rem 0;
+}
+
+.img{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(124, 116, 116);
+}

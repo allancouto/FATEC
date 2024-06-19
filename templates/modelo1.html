@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+    {% block conteudo%}
+
+    <div class="principal">
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                AV-1 Explorer
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{{url_for('modelo1')}}">AV-1 Explorer</a></li>
+                <li><a class="dropdown-item" href="{{url_for('modelo2')}}">AV-2 Voyager</a></li>
+                <li><a class="dropdown-item" href="{{url_for('modelo3')}}">AV-3 Summit</a></li>
+            </ul>
+          </div>
+
+        <h1>1. AV-1 Explorer</h1>
+
+        <p>O AV-1 Explorer é o modelo pioneiro da AeroVenture, projetado para ser a porta de entrada para a mobilidade aérea urbana.</p>
+
+        <h1>Características:</h1>
+        <li><strong>capacidade:</strong> 2 passageiros</li>
+        <li><strong>Autonomia:</strong> 100 km</li>
+        <li><strong>Velocidade Máxima:</strong> 150 km/h</li>
+        <li><strong>Propulsão:</strong> Motores elétricos com decolagem e pouso vertical (VTOL)</li>
+        <li><strong>Design:</strong> Compacto e aerodinâmico, ideal para uso urbano</li>
+        <li><strong>Segurança:</strong> Sistema de navegação autônoma com sensores de proximidade e tecnologia de prevenção de colisões</li>
+        <li><strong>Conforto:</strong> Interiores ergonômicos com telas touchscreen e conectividade total</li>
+
+        <h1>Uso Ideal:</h1>
+        <li>Deslocamentos rápidos dentro de cidades</li>
+        <li>Transporte pessoal diário</li>
+
+        <h1>AeroVenture: Transformando o Futuro da Mobilidade</h1>
+        <p>Cada um dos modelos da AeroVenture é projetado com a missão de tornar a mobilidade aérea acessível, segura e sustentável, atendendo às diversas necessidades dos usuários e transformando a forma como nos deslocamos nas cidades e além. Explore novas alturas com a AeroVenture e descubra um mundo de possibilidades.</p>
+    </div>
+
+    <div class="principal">
+        
+    </div>
+
+    {% endblock conteudo%}

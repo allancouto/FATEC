@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+    {% block conteudo%}
+
+    <div class="principal">
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                AV-3 Summit
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{{url_for('modelo1')}}">AV-1 Explorer</a></li>
+                <li><a class="dropdown-item" href="{{url_for('modelo2')}}">AV-2 Voyager</a></li>
+                <li><a class="dropdown-item" href="{{url_for('modelo3')}}">AV-3 Summit</a></li>
+            </ul>
+          </div>
+
+        <h1>3. AV-3 Summit</h1>
+
+        <p>O AV-3 Summit é o modelo premium, projetado para luxo e viagens de longa distância, combinando o máximo de conforto e tecnologia.</p>
+
+        <h1>Características:</h1>
+        <li><strong>capacidade:</strong> 6 passageiros</li>
+        <li><strong>Autonomia:</strong> 300 km</li>
+        <li><strong>Velocidade Máxima:</strong> 250 km/h</li>
+        <li><strong>Propulsão:</strong> Motores elétricos de alta potência com backup redundante</li>
+        <li><strong>Design:</strong> Luxuoso com acabamentos premium, teto panorâmico</li>
+        <li><strong>Segurança:</strong> Navegação autônoma com IA de última geração, múltiplos sistemas de segurança redundantes, escape de emergência</li>
+        <li><strong>Conforto:</strong> Interiores de luxo com controle de clima individual, sistema de som surround, iluminação ambiente ajustável, mesas dobráveis para trabalho e refeição</li>
+
+        <h1>Uso Ideal:</h1>
+        <li>Transporte executivo</li>
+        <li>Viagens de negócios e lazer de alta classe</li>
+
+        <h1>AeroVenture: Transformando o Futuro da Mobilidade</h1>
+        <p>Cada um dos modelos da AeroVenture é projetado com a missão de tornar a mobilidade aérea acessível, segura e sustentável, atendendo às diversas necessidades dos usuários e transformando a forma como nos deslocamos nas cidades e além. Explore novas alturas com a AeroVenture e descubra um mundo de possibilidades.</p>
+    </div>
+
+
+    {% endblock conteudo%}

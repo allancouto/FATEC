@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+    
+{% block title %} Contato {% endblock title %}
+
+{%block conteudo%}
+
+<!-- Paragrafo -->
+<div class="principal">
+
+    <h1 class="titulo">Entre em Contato</h1>
+    <p class="paragrafo">
+        Para tirar alguma duvida preencha o formilário abaixo:
+    </p>
+
+    <form form action="/include" method="POST">
+
+        <label for="fname">Nome</label> <br>
+        <input type="text" id="fnome" name="fnome" required><br>
+
+        <br>
+
+        <label for="femail">Email</label> <br>
+        <input type="text" name="femail" id="femail"  required><br>
+
+        <br>
+        
+        <label for="fdescricao">Duvida:</label> <br>
+        <textarea id="fdescricao" name="fdescricao" class="large-textarea" cols="50" rows="10" required></textarea>
+
+        <br>
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+</div>
+
+
+{%endblock conteudo%}
