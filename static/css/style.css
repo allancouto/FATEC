@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+
 }
 
 .principal{
@@ -9,7 +10,7 @@ body{
     max-width: 1400px;
 }
 
-.principal h1{
+.principal h2{
     color: black;
     font-size: 1.5rem;
     margin: 1rem 0 1rem 0;
@@ -30,5 +31,5 @@ body{
 }
 
 body{
-    background-color: rgb(124, 116, 116);
+    background-color: rgb(234, 234, 234);
 }
